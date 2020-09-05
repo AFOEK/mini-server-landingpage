@@ -16,31 +16,37 @@ ul{
     color: #794dff;
     opacity: 0.8;
     transition: 0.5;
+    cursor: pointer;
 }
 .question_2{
     color: #79ff4d;
     opacity: 0.8;
     transition: 0.5;
+    cursor: pointer;
 }
 .question_3{
     color: #4dffa6;
     opacity: 0.8;
     transition: 0.5;
+    cursor: pointer;
 }
 .question_4{
     color: #ff794d;
     opacity: 0.8;
     transition: 0.5;
+    cursor: pointer;
 }
 .question_5{
     color: #ff4d4d;
     opacity: 0.8;
     transition: 0.5;
+    cursor: pointer;
 }
 .question_6{
     color: #ffa64d;
     opacity: 0.8;
     transition: 0.5;
+    cursor: pointer;
 }
 .question_1:hover{
     text-decoration-line: underline;
@@ -82,4 +88,28 @@ ul{
 .link_IP:hover{
     color: #00e6e6;
     text-decoration-line: underline;
+}
+.answere1{
+    display: none;
+    color:#794dff;
+}
+.answere2{
+    display: none;
+    color:#79ff4d;
+}
+.answere3{
+    display: none;
+    color:#4dffa6;
+}
+.answere4{
+    display: none;
+    color:#ff794d;
+}
+.answere5{
+    display: none;
+    color:#ff4d4d;
+}
+.answere6{
+    display: none;
+    color:#ffa64d;
 }
