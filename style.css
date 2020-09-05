@@ -91,27 +91,27 @@ ul{
 }
 .answere1{
     display: none;
-    color:#794dff;
+    color:#531aff;
 }
 .answere2{
     display: none;
-    color:#79ff4d;
+    color:#53ff1a;
 }
 .answere3{
     display: none;
-    color:#4dffa6;
+    color:#1aff8c;
 }
 .answere4{
     display: none;
-    color:#ff794d;
+    color:#ff531a;
 }
 .answere5{
     display: none;
-    color:#ff4d4d;
+    color:#ff1a1a;
 }
 .answere6{
     display: none;
-    color:#ffa64d;
+    color:#ff8c1a;
 }
 @keyframes fadeOut {
     0% {
