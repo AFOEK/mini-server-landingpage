@@ -130,3 +130,13 @@ ul{
       opacity:0;
     }
 }
+.ps{
+    margin-top:3px;
+    font-size: small;
+    opacity: 0.2;
+    transition: opacity 0.5s;
+    cursor: default;
+}
+.ps:hover{
+    opacity: 1;
+}
