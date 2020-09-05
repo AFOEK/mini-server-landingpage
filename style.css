@@ -1,5 +1,6 @@
 body{
-    margin: 0px
+    margin: 0px;
+    margin-left:5px
 }
 li{
     list-style-type: none;
@@ -8,7 +9,8 @@ li{
 ul{
     padding: 0px;
     margin-top: 10px;
-    margin-bottom: 10px
+    margin-bottom: 10px;
+    margin-left:5px
 }
 .question_1{
     color: #794dff;
@@ -63,4 +65,29 @@ ul{
 .question_6:hover{
     text-decoration-line: underline;
     opacity: 1;
+}
+.link_GCP{
+    text-decoration-line: none;
+    color: #0039e6;
+    transition: 0.5;
+}
+.link_IP{
+    text-decoration-line: none;
+    color: #0039e6;
+}
+.link_GCP:hover{
+    color: #00e6e6;
+    text-decoration-line: underline;
+}
+.link_IP:hover{
+    color: #00e6e6;
+    text-decoration-line: underline;
+}
+.link_GCP:visited{
+    color:#0040ff;
+    text-decoration-line: underline;
+}
+.link_IP:visited{
+    color:#0040ff;
+    text-decoration-line: underline;
 }
