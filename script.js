@@ -35,4 +35,5 @@ $(document).ready(function(){
             $(".answere6").hide(1500);
         }, 3000);
     });
+    
 });

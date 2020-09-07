@@ -113,30 +113,33 @@ ul{
     display: none;
     color:#ff8c1a;
 }
-@keyframes fadeOut {
-    0% {
+@keyframes fadeOut{
+    0%{
       opacity:1;
     }
-    100% {
+    100%{
       opacity:0;
     }
 }
   
-@-moz-keyframes fadeOut {
-    0% {
+@-moz-keyframes fadeOut{
+    0%{
       opacity:1;
     }
-    100% {
+    100%{
       opacity:0;
     }
 }
 .ps{
-    margin-top:3px;
+    margin-top: 8px;
     font-size: small;
-    opacity: 0.2;
+    opacity: 0.05;
     transition: opacity 0.5s;
     cursor: default;
 }
 .ps:hover{
     opacity: 1;
+}
+footer{
+    text-align: center;
 }
