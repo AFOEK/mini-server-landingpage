@@ -33,7 +33,12 @@ $(document).ready(function(){
         $(".answere6").show(1000);
         setTimeout(function(){
             $(".answere6").hide(1500);
-        }, 3000);
+        }, 5500);
     });
-    
+    $(".dark").click(function(){
+        $(".dark_answere").show(1000);
+        setTimeout(function(){
+            $(".dark_answere").hide(2500);
+        },4500);
+    });
 });

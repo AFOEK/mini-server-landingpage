@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+
 body{
     margin: 0px;
     margin-left:5px
@@ -112,6 +114,21 @@ ul{
 .answere6{
     display: none;
     color:#ff8c1a;
+}
+.dark{
+    color:black;
+    font-weight: bolder;
+    opacity: 0.5;
+}
+.dark:hover{
+    text-decoration-line: underline;
+    opacity: 1;
+    transition: 0.5;
+}
+.dark_answere{
+    display: none;
+    font-family: 'Nosifer',cursive;
+    font-size: small;
 }
 @keyframes fadeOut{
     0%{
