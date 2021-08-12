@@ -43,12 +43,6 @@ ul{
     transition: 0.5;
     cursor: pointer;
 }
-.question_6{
-    color: #ffa64d;
-    opacity: 0.8;
-    transition: 0.5;
-    cursor: pointer;
-}
 .question_1:hover{
     text-decoration-line: underline;
     opacity: 1;
@@ -69,24 +63,12 @@ ul{
     text-decoration-line: underline;
     opacity: 1;
 }
-.question_6:hover{
-    text-decoration-line: underline;
-    opacity: 1;
-}
-.link_GCP{
+.link_heroku{
     text-decoration-line: none;
     color: #0039e6;
     transition: 0.5;
 }
-.link_IP{
-    text-decoration-line: none;
-    color: #0039e6;
-}
-.link_GCP:hover{
-    color: #00e6e6;
-    text-decoration-line: underline;
-}
-.link_IP:hover{
+.link_heroku:hover{
     color: #00e6e6;
     text-decoration-line: underline;
 }
@@ -109,10 +91,6 @@ ul{
 .answere5{
     display: none;
     color:#ff1a1a;
-}
-.answere6{
-    display: none;
-    color:#ff8c1a;
 }
 .dark{
     color:black;
