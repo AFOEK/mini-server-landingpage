@@ -1,11 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+128&family=Libre+Barcode+128+Text&family=Libre+Barcode+39+Extended&family=Libre+Barcode+39+Extended+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap');
+@font-face {
+    font-family: "Mason Cipher";
+    src: url("Masonic Cipher.ttf");
+}
 /* CSS Rule for font-family:
     font-family: 'Libre Barcode 128', cursive;
     font-family: 'Libre Barcode 128 Text', cursive;
     font-family: 'Libre Barcode 39 Extended', cursive;
     font-family: 'Libre Barcode 39 Extended Text', cursive;
-    font-family: 'Nosifer',cursive; */
+    font-family: 'Nosifer',cursive;
+    font-family: 'GFS Didot', serif; */
 body{
     margin: 0px;
     margin-left:5px
@@ -303,7 +309,11 @@ footer{
     color: transparent;
     animation: rainbow_animation 10s ease-in-out infinite;
     background-size: 400% 100%;
+    display: inline-block;
 }
 .place_link:hover{
     text-decoration-line: underline;
+}
+.content_core{
+    font-family: 'Mason Cipher';
 }
