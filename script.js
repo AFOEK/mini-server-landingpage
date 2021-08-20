@@ -29,6 +29,12 @@ $(document).ready(function(){
             $(".answere5").hide(1500);
         }, 3000);
     });
+    $(".question_6").click(function(){
+        $(".answere6").show(1000);
+        setTimeout(function(){
+            $(".answere6").hide(1500);
+        }, 3000);
+    });
     $(".dark").click(function(){
         $(".dark_answere").show(1000);
         setTimeout(function(){

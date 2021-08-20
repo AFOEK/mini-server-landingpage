@@ -43,6 +43,12 @@ ul{
     transition: 0.5;
     cursor: pointer;
 }
+.question_6{
+    color:darkorange;
+    opacity: 0.8;
+    transition: 0.5;
+    cursor: pointer;
+}
 .question_1:hover{
     text-decoration-line: underline;
     opacity: 1;
@@ -60,6 +66,10 @@ ul{
     opacity: 1;
 }
 .question_5:hover{
+    text-decoration-line: underline;
+    opacity: 1;
+}
+.question_6:hover{
     text-decoration-line: underline;
     opacity: 1;
 }
@@ -92,10 +102,16 @@ ul{
     display: none;
     color:#ff1a1a;
 }
+.answere6{
+    display: none;
+    color:darkorchid;
+}
 .dark{
     color:black;
     font-weight: bolder;
     opacity: 0.5;
+    transition: 0.5;
+    cursor: pointer;
 }
 .dark:hover{
     text-decoration-line: underline;
@@ -106,6 +122,16 @@ ul{
     display: none;
     font-family: 'Nosifer',cursive;
     font-size: small;
+}
+.quote{
+    display:inline-block;
+    opacity: 0.8;
+    transition: 0.5;
+    cursor: pointer;
+}
+.quote:hover{
+    text-decoration-line: underline;
+    opacity: 1;
 }
 @keyframes fadeOut{
     0%{
@@ -136,4 +162,11 @@ ul{
 }
 footer{
     text-align: center;
+}
+.thing_gif{
+    float: right;
+    width: 8%;
+    height: 8%;
+    cursor: pointer;
+    margin-top: -0.65in;
 }
