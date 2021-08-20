@@ -110,24 +110,28 @@ $(document).ready(function(){
         $(".answere_place_1").show(1000);
         setTimeout(function(){
             $(".answere_place_1").hide(3500);
-        }, 3000);
+        }, 4500);
     });
     $(".question_place_2").click(function(){
         $(".answere_place_2").show(1000);
         setTimeout(function(){
             $(".answere_place_2").hide(3500);
-        }, 3000);
+        }, 4500);
     });
     $(".question_place_3").click(function(){
         $(".answere_place_3").show(1000);
         setTimeout(function(){
             $(".answere_place_3").hide(3500);
-        }, 3000);
+        }, 4500);
     });
     $(".question_place_4").click(function(){
         $(".answere_place_4").show(1000);
         setTimeout(function(){
             $(".answere_place_4").hide(3500);
-        }, 3000);
+        }, 4500);
     });
+    $(".answere_place_1").lettering('words');
+    $(".answere_place_2").lettering('words');
+    $(".answere_place_3").lettering('words');
+    $(".answere_place_4").lettering('words');
 });

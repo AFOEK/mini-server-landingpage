@@ -367,17 +367,41 @@ footer{
 }
 .answere_place_1{
     display: none;
+    font-family: 'Mason Cipher';
     width: 50%;
+    color:cornflowerblue;
 }
 .answere_place_2{
     display: none;
+    font-family: 'Mason Cipher';
     width: 50%;
+    color:slateblue;
 }
 .answere_place_3{
     display: none;
+    font-family: 'Mason Cipher';
     width: 50%;
+    color:rgb(233, 176, 233);
 }
 .answere_place_4{
     display: none;
+    font-family: 'Mason Cipher';
     width: 50%;
+    color:rgba(255, 0, 255, 0.863);
+}
+.answere_place_1 span:hover{
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 1s;
+}
+.answere_place_2 span:hover{
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 1s;
+}
+.answere_place_3 span:hover{
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 1s;
+}
+.answere_place_4 span:hover{
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 1s;
 }
