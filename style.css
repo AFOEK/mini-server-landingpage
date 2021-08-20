@@ -246,6 +246,10 @@ footer{
     text-decoration-line: underline;
     opacity: 1;
 }
+.thingy_question_5:hover{
+    text-decoration-line: underline;
+    opacity: 1;
+}
 .answere_thingy_1{
     color:dodgerblue;
     display: none;
@@ -280,4 +284,26 @@ footer{
     font-family: 'Libre Barcode 128', cursive;
     width: 50%;
     font-size: 30px;
+}
+@keyframes rainbow_animation {
+    0%,100% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 0;
+    }
+}
+.place_link{
+    text-decoration-line: none;
+    transition: 0.5;
+    background: linear-gradient(to left, #6666ff, #0099ff , #00ff00, #ff3399, #6666ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow_animation 10s ease-in-out infinite;
+    background-size: 400% 100%;
+}
+.place_link:hover{
+    text-decoration-line: underline;
 }

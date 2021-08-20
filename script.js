@@ -46,6 +46,7 @@ $(document).ready(function(){
         $(".thingy_question_2").toggle(1000);
         $(".thingy_question_3").toggle(1000);
         $(".thingy_question_4").toggle(1000);
+        $(".thingy_question_5").toggle(1000);
     });
     $(".thingy_question_1").click(function(){
         $(".answere_thingy_1").show(1000);
@@ -71,6 +72,12 @@ $(document).ready(function(){
         $(".answere_thingy_4").show(1000);
         setTimeout(function(){
             $(".answere_thingy_4").hide(3500);
+        }, 3000);
+    });
+    $(".thingy_question_5").click(function(){
+        $(".answere_thingy_5").show(1000);
+        setTimeout(function(){
+            $(".answere_thingy_5").hide(3500);
         }, 3000);
     });
 });
