@@ -13,9 +13,6 @@ $(document).ready(function(){
             clearInterval(tm);
         }
         document.title = n;
-        if(mobile == true){
-            $('div.counter').html(n);
-        }
     }
     window.setTimeout(function(){
         window.location.href = 'final.html';
@@ -201,6 +198,11 @@ $(document).ready(function(){
         var rx, rz;
         var star;
         var scale;
+        if(mobile == true){
+            $('div.counter').html(n);
+        }else{
+            $('div.counter').remove();
+        }
         if (mouseActive) {
             starSpeed += 2;
             if (starSpeed > starSpeedMax)
