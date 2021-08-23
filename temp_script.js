@@ -2,6 +2,7 @@
 $(document).ready(function(){
     var n = 10;
     var tm = setInterval(countDown, 1000);
+    alert("Hold on we warping you to other side");
     function countDown(){
         n--;
         if(n == 0){
