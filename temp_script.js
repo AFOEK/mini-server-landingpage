@@ -1,7 +1,17 @@
 //https://codepen.io/NiklasKnaack/pen/OmwgKb
 $(document).ready(function(){
+    var n = 10;
+    var tm = setInterval(countDown, 1000);
+    function countDown(){
+        n--;
+        if(n == 0){
+            clearInterval(tm);
+        }
+        document.title = n;
+    }
     window.setTimeout(function(){
-        window.location.href = 'final.html';},10000);
+        window.location.href = 'final.html';
+    },10000);
     var mobile = false;
     if (isMobile.phone || isMobile.tablet) {
         mobile = true;
