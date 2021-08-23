@@ -1,3 +1,3 @@
 <?php
-    require_once("html\index.html")
+    require_once("index.html")
 ?>
