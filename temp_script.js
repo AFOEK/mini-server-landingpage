@@ -1,22 +1,25 @@
 //https://codepen.io/NiklasKnaack/pen/OmwgKb
 $(document).ready(function(){
+    var mobile = false;
+    if (isMobile.phone || isMobile.tablet) {
+        mobile = true;
+    }
     var n = 10;
     var tm = setInterval(countDown, 1000);
     alert("Hold on we warping you to other side");
     function countDown(){
         n--;
-        if(n == 0){
+        if(n == 1){
             clearInterval(tm);
         }
         document.title = n;
+        if(mobile == true){
+            $('div.counter').html(n);
+        }
     }
     window.setTimeout(function(){
         window.location.href = 'final.html';
     },10000);
-    var mobile = false;
-    if (isMobile.phone || isMobile.tablet) {
-        mobile = true;
-    }
     var canvasWidth = $(document).width();
     var canvasHeight = $(document).height();
     var canvas = document.createElement('canvas');

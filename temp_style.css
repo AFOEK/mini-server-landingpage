@@ -1,3 +1,7 @@
+@font-face {
+    font-family: "Minecraft";
+    src: url("Minecraft.ttf");
+}
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -17,8 +21,12 @@ table, caption, tbody, tfoot, thead, tr, th, td
     background: transparent;
     box-sizing: border-box;
 }
-
 body {
     overflow: hidden;
     background-color: #111;
+}
+.counter{
+    font-size: x-small;
+    font-family: 'Minecraft';
+    text-align: center;
 }
