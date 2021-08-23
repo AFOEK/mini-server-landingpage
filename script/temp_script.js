@@ -1,5 +1,8 @@
 //https://codepen.io/NiklasKnaack/pen/OmwgKb
 $(document).ready(function(){
+    $(document).bind("contextmenu", function(e){
+        e.preventDefault();
+    });
     var mobile = false;
     if (isMobile.phone || isMobile.tablet) {
         mobile = true;
@@ -198,11 +201,6 @@ $(document).ready(function(){
         var rx, rz;
         var star;
         var scale;
-        if(mobile == true){
-            $('div.counter').html(n);
-        }else{
-            $('div.counter').remove();
-        }
         if (mouseActive) {
             starSpeed += 2;
             if (starSpeed > starSpeedMax)
