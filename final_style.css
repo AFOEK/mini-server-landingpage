@@ -57,7 +57,114 @@ ul{
     margin-bottom: 10px;
     margin-left:5px
 }
-.content-core .question_place_core .answere_final_core{
+.content-core {
     font-family: "Minecraft", cursive;
     color: black;
+}
+.question_place_core{
+    font-family: "Minecraft", cursive;
+} 
+.answere_final_core{
+    font-family: "Minecraft", cursive;
+}
+.question_1{
+    color:darkolivegreen;
+    opacity: 0.8;
+    transition: 0.5;
+    cursor: pointer;
+    width: 50%;
+}
+.question_2{
+    color: firebrick;
+    opacity: 0.8;
+    transition: 0.5;
+    cursor: pointer;
+    width: 50%;
+}
+.question_3{
+    color:teal;
+    opacity: 0.8;
+    transition: 0.5;
+    cursor: pointer;
+    width: 50%;
+}
+.question_4{
+    color: slateblue;
+    opacity: 0.8;
+    transition: 0.5;
+    cursor: pointer;
+    width: 50%;
+}
+.sub_question{
+    color:steelblue;
+    opacity: 0.8;
+    transition: 0.5;
+    cursor: pointer;
+    width: 50%;
+}
+.question_1:hover{
+    text-decoration-line: underline;
+    opacity: 1;
+}
+.question_2:hover{
+    text-decoration-line: underline;
+    opacity: 1;
+}
+.question_3:hover{
+    text-decoration-line: underline;
+    opacity: 1;
+}
+.question_4:hover{
+    text-decoration-line: underline;
+    opacity: 1;
+}
+.sub_question:hover{
+    text-decoration-line: underline;
+    opacity: 1;
+}
+.answere1{
+    display: none;
+    color:olivedrab;
+    width: 50%;
+}
+.answere2{
+    display: none;
+    color:maroon;
+    width: 50%;
+}
+.answere3{
+    display: none;
+    color:#1aff8c;
+    width: 50%;
+}
+.answere4{
+    display: none;
+    color: blueviolet;
+    width: 50%;
+}
+.sub_answere{
+    font-family: "Minecraft", cursive;
+    display: none;
+    color: darkslateblue;
+    width: 25%;
+}
+@keyframes rainbow_animation {
+    0%,100% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 0;
+    }
+}
+.last{
+    text-decoration-line: none;
+    transition: 0.5;
+    background: linear-gradient(to left, #6666ff, #0099ff , #00ff00, #ff3399, #6666ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow_animation 10s ease-in-out infinite;
+    background-size: 400% 100%;
+    display: inline-block;
 }

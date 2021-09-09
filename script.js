@@ -1,3 +1,23 @@
+(function (global) {
+    if(typeof (global) === "undefined") {
+        throw new Error("window is undefined");
+    }
+    var _hash = "!";
+    var noBackPlease = function () {
+        global.location.href += "#";
+        global.setTimeout(function () {
+            global.location.href += "!";
+        }, 50);
+    };
+    global.onhashchange = function () {
+        if (global.location.hash !== _hash) {
+            global.location.hash = _hash;
+        }
+    };
+    global.onload = function () {
+        noBackPlease();
+    }
+})(window);
 $(document).ready(function(){
     $(document).bind("contextmenu", function(e){
         e.preventDefault();
@@ -43,6 +63,10 @@ $(document).ready(function(){
         setTimeout(function(){
             $(".dark_answere").hide(2500);
         }, 3000);
+        $(".portal_gif").show(1500);
+        setTimeout(function(){
+            $(".portal_gif").hide(2500);
+        }, 2500);
     });
     $(".thing_gif").click(function(){
         $(".thingy_question_1").toggle(1000);
@@ -96,15 +120,19 @@ $(document).ready(function(){
             if(random == 1){
                 str64 = btoa(unescape(encodeURIComponent(str1)))
                 console.warn(str64)
+                alert(str64)
             }else if(random == 2){
                 str64 = btoa(unescape(encodeURIComponent(str2)))
                 console.warn(str64)
+                alert(str64)
             }else if(random == 3){
                 str64 = btoa(unescape(encodeURIComponent(str3)))
                 console.warn(str64)
+                alert(str64)
             }else if(random == 4){
                 str64 = btoa(unescape(encodeURIComponent(str4)))
                 console.warn(str64)
+                alert(str64)
             }
     }
     $(".question_place_1").click(function(){

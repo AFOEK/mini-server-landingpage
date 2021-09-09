@@ -19,9 +19,39 @@
     }
 })(window);
 $(document).ready(function(){
-    canvas.oncontextmenu = function (e) {
+    $(document).bind("contextmenu", function(e){
         e.preventDefault();
-    };
+    });
+    $(".question_1").click(function(){
+        $(".answere1").show(1000);
+        setTimeout(function(){
+            $(".answere1").hide(1500);
+        }, 3000);
+    });
+    $(".question_2").click(function(){
+        $(".answere2").show(1000);
+        setTimeout(function(){
+            $(".answere2").hide(1500);
+        }, 3000);
+    });
+    $(".question_3").click(function(){
+        $(".answere3").show(1000);
+        setTimeout(function(){
+            $(".answere3").hide(1500);
+        }, 3000);
+    });
+    $(".question_4").click(function(){
+        $(".answere4").show(2500);
+        setTimeout(function(){
+            $(".answere4").hide(1500);
+        }, 3500);
+    });
+    $(".sub_question").click(function(){
+        $(".sub_answere").show(3500);
+        setTimeout(function(){
+            $(".sub_answere").hide(2500);
+        }, 4500);
+    });
     if(window.devtools.isOpen == true){
         console.clear();
             console.warn("Hey what you want doin here ? get back to your world");
@@ -34,15 +64,19 @@ $(document).ready(function(){
             if(random == 1){
                 str64 = btoa(unescape(encodeURIComponent(str1)))
                 console.warn(str64)
+                alert(str64)
             }else if(random == 2){
                 str64 = btoa(unescape(encodeURIComponent(str2)))
                 console.warn(str64)
+                alert(str64)
             }else if(random == 3){
                 str64 = btoa(unescape(encodeURIComponent(str3)))
                 console.warn(str64)
+                alert(str64)
             }else if(random == 4){
                 str64 = btoa(unescape(encodeURIComponent(str4)))
                 console.warn(str64)
+                alert(str64)
             }
     }
 });

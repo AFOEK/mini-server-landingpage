@@ -414,3 +414,9 @@ footer{
     margin-top: -1.3in;
     margin-right: 2px;
 }
+.portal_gif{
+    width: 4.5%;
+    height: 4.5%;
+    cursor: none;
+    display: none;
+}
