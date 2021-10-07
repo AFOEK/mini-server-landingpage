@@ -168,3 +168,7 @@ ul{
     background-size: 400% 100%;
     display: inline-block;
 }
+.github_link{
+    color:chartreuse;
+    text-decoration: none;
+}
